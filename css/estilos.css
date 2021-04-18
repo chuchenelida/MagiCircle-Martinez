@@ -299,7 +299,7 @@ align-items: center;
 padding: 50px;
 }
 
-.SliderNN {
+/* .SliderNN {
     width: 95%;
     margin: auto;
     overflow: hidden;   
@@ -323,7 +323,7 @@ padding: 50px;
 
     50% {margin-left: -200%;}
     100% {margin-left: -200%;}
-}
+} */
 .ActividadesNN__3 {
     
     display: flex;
