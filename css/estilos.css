@@ -133,15 +133,14 @@ footer {
 
 .IntroIndex {
     background: rgb(106,27,154);
-background: radial-gradient(circle, rgba(106,27,154,1) 0%, rgba(74,18,108,1) 33%, rgba(60,14,88,1) 47%, rgba(49,11,73,1) 58%, rgba(41,9,62,1) 66%, rgba(8,0,15,1) 100%);;
-    display: flex;
+background: radial-gradient(circle, rgba(106,27,154,1) 0%, rgba(74,18,108,1) 33%, rgba(60,14,88,1) 47%, rgba(49,11,73,1) 58%, rgba(41,9,62,1) 66%, rgba(8,0,15,1) 100%); 
     justify-content: center;
     height: 100%;
     align-items:center;
-    padding: 50px;
-    
+    padding: 50px;    
 }
-.IntroIndex__Video {
+
+/* .IntroIndex__Video {
     margin: 20px;
     padding: 20px;
 }
@@ -159,10 +158,10 @@ background: radial-gradient(circle, rgba(106,27,154,1) 0%, rgba(74,18,108,1) 33%
     border-radius: 1rem;
     overflow:hidden;
   
-}
+} */
 /*html Sección Niñxs */
 
-.Niñxs {
+/* .Niñxs {
     display: flex;
     justify-content: center;
     height: 100%;
@@ -199,10 +198,10 @@ background: radial-gradient(circle, rgba(106,27,154,1) 0%, rgba(74,18,108,1) 33%
     margin:auto;
     height:35vh;
 
-}
+} */
 
 /*html Sección Cuidadores Primarios */
-.CuidadoresP {
+/* .CuidadoresP {
     display: flex;
     justify-content: center;
     align-items:center;
@@ -235,12 +234,10 @@ background: radial-gradient(circle, rgba(106,27,154,1) 0%, rgba(74,18,108,1) 33%
     grid-column: 1/4;
 }
 
-.CuidadoresP div:hover {
-    border: 1px solid #000
-}
+
 
 /*html Sección Agentes Educativos */
-.AgentesE {
+/* .AgentesE {
     display: flex;
     justify-content: center;
     align-items:center;
@@ -262,7 +259,7 @@ background: radial-gradient(circle, rgba(106,27,154,1) 0%, rgba(74,18,108,1) 33%
 .AgentesE__Boton{
     display: flex;
     padding: 50px 50px 50px 450px;
-}
+} */
 
 /*Página Niños y Niñas*/
 #gradiente1{
