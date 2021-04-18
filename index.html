@@ -13,9 +13,10 @@
     <header> <!--Información de Bienvenida-->
         <section id="imagenPrincipal"> 
              <h1 class="principal">El círculo mágico</h1>
-             <h2 class="TopP"> Una experiencia del Aprendizaje a través del juego</h2>
+             <h2 class="TopP"> Una experiencia del Aprendizaje a través del juego para la primera infancia</h2>
         </section>
         <section>
+            
             <nav>
             <ul class="menu"> 
                 <li><a href="index.html">Inicio </a></li>
@@ -29,76 +30,69 @@
     </header>
 <main>
     <section class="IntroIndex"><!--Sección principal y de bienvenida-->
-        <article><!--Video Introductorio a la página-->
-            <div class=IntroIndex__Video><iframe width="560" height="315" src="https://www.youtube.com/embed/YXw10kZm0CA" frameborder="150" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            <p>pruebaBT</p> 
-        </article>
-      
-        <article class=IntroIndex__Texto> <!--En un cuadro a la derecha se pondra la misión y visión-->
-        <div>
-            <h3>Misión</h3>
-        <p>Aquí debería de decir la misión: Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ullam vitae sapiente voluptatem officiis molestiae omnis maiores repudiandae eos corrupti voluptatibus iste ex reiciendis, doloribus odit veniam officia id tempore!</p>
-        </div>
-        <div>
-            <h3>Visión</h3>
-        <p>Aquí debería de decir la visión: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consectetur vel doloribus harum iure adipisci nostrum distinctio ipsa est odit provident error expedita eos aperiam dicta officiis ipsam, sint non. </p>
-        </div>
-        </article>
+        <div class=""container>
+            <div class="row">
+                <div class="col"><!--Video Introductorio a la página-->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YXw10kZm0CA" frameborder="150" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col"><!--En un cuadro a la derecha se pondra la misión y visión-->
+                    <h3>Misión</h3>
+                    <p>Aquí debería de decir la misión: Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ullam vitae sapiente voluptatem officiis molestiae omnis maiores repudiandae eos corrupti voluptatibus iste ex reiciendis, doloribus odit veniam officia id tempore!</p>
+                    <h3>Visión</h3>
+                    <p>Aquí debería de decir la visión: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consectetur vel doloribus harum iure adipisci nostrum distinctio ipsa est odit provident error expedita eos aperiam dicta officiis ipsam, sint non. </p>
+            </div>
+        </div>    
     </section>
 
     <section class="Niñxs"> <!--Información general de la sección para niños y niñas-->
         <article>
-            <div class="Niñxs__Texto">
-                <h2>Niños y Niñas</h2>
-                <p>Información de las actividades para los niños y niñas</p>
-            </div>
-            
-        <div class="Niñxs__Imagen">
-            <img src="img/Niñostec.png" width="700" alt="Niños y niñas jugando felices">
-        </div>
-        </article>
-
-        <article><!--A la derecha apareceran los links que mandaran a otra página con actividades para niños de diferentes edades-->
-            <div class="Niñxs__Actividades">
-                <div><h3>Actividades</h3></div>
-                <ul>
-                    <li> <a href="" > Edades de 0 a 12 meses</a></li>
-                    <li> <a href="" > Edades de 12 a 18 meses</a></li>
-                    <li> <a href="" > Edades de 2 a 3 años</a></li>
-                    <li> <a href="" > Edades de 3 a 4 años</a></li>
-                </ul>
-            </div>
-        </article>
-    </section>
+            <div class="container">
+                <div class="row">
+                  <div class="col-9"> <h2>Niños y Niñas</h2></div>
+                  <div class="col-4"> <p>Información de las actividades para los niños y niñas</p> 
+                    <div><h3>Actividades</h3>
+                        <li> <a href="" > Edades de 0 a 12 meses</a></li>
+                        <li> <a href="" > Edades de 12 a 18 meses</a></li>
+                        <li> <a href="" > Edades de 2 a 3 años</a></li>
+                        <li> <a href="" > Edades de 3 a 4 años</a></li>
+                    </div>
+             </div>
+                  <div class="col-6"><img src="img/Niñostec.png" class="rounded" width="700" alt="Niños y niñas jugando felices"></div>
+                </div>
+              </div>
+    </section> 
 
     <section class="CuidadoresP"><!--Información general de la sección para cuidadores primarios-->
-        <article class="CuidadoresAnidado">
-              <h3 >Cuidadores Primarios</h3>
-                <div class="CuidadoresP__Texto">
-                <p>Información para cuidadores primarios Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, animi error, maiores obcaecati tempore id quas dolorum iste repellendus et ullam quis beatae! Ex fugiat voluptatem ratione officia fuga quaerat!</p>
-                </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-9"> <h3 >Cuidadores Primarios</h3></div>
+                <div class="col-4"><p>Información para cuidadores primarios Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, animi error, maiores obcaecati tempore id quas dolorum iste repellendus et ullam quis beatae! Ex fugiat voluptatem ratione officia fuga quaerat!</p> 
+                    <div class="CuidadoresP_Texto__Boton">
+                    <button type="button" class="btn btn-primary btn-lg"> Ingresar </button> <a href="botón1"> </a>
+               </div>
             </div>
-            <div class="CuidadoresP__Imagen">
-             <img src="img/CP.jpg" width="480" alt="Madres y padres con sus hijxs">
+              <div class="col-8"> <img src="img/CP.jpg" class="rounded-pill" width="100%" alt="Madres y padres con sus hijxs"></div>
             </div>
-            <div class="CuidadoresP_Texto__Boton">
-            <a href="botón"> Ingresar</a> 
-            </div>
-       </article>
+          
     </section>   
 
-     <Section class="AgentesE"><!--Información general de la sección para agentes educativos-->
-        <article> 
-            <div class="AgentesE__Texto">
+    <Section class="AgentesE"><!--Información general de la sección para agentes educativos-->
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
                 <h3>Agentes Educativos</h3>
-                <p>Información para agentes educativos Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam iusto, numquam facilis eum quos ab sequi repellendus aspernatur dolorem impedit temporibus minima, nesciunt doloribus delectus voluptatum praesentium, perferendis quod possimus?</p>
-            </div>  
-            <div class="AgentesE__Imagen">
-                <img src="img/Agentes Educativos.jpg" width="400" alt="Agentes educativos, docentes y directivos">
+                <div class="row">
+                  <div class="col-8 col-sm-6">
+                    <img src="img/Agentes Educativos.jpg" class="img-thumbnail" width="100%" alt="Agentes educativos, docentes y directivos">
+                  </div>
+                  <div class="col-4 col-sm-6"> 
+                    <p>Información para agentes educativos Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam iusto, numquam facilis eum quos ab sequi repellendus aspernatur dolorem impedit temporibus minima, nesciunt doloribus delectus voluptatum praesentium, perferendis quod possimus?</p>
+                    <button type="button" class="btn btn-primary btn-lg">Ingresar</button> <a href="botón2"> </a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="AgentesE__Boton"><a href="botón"> Ingresar</a>
-            </div>
-        </article>  
+          </div>
     </section>
 </main>
 
@@ -118,5 +112,8 @@
         </ul>
         </div> 
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>    
 </body>
 </html>
