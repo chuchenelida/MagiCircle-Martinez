@@ -15,10 +15,10 @@
 $ancho: 450px;
 $purple: #6a1b9a;
 $yellow:  #F8CA00;
-$purpleSoft:#9c4dcc 
+$purpleSoft:#9c4dcc; 
 
 
-header{
+header {
     color:$yellow; background-color:$purple;
     }
 
@@ -33,7 +33,6 @@ header{
         background-image: url(../img/fondogalaxia.png);
         background-size: cover;
         width: 100%;
-        $ancho/2;
     }
 
 .principal {
