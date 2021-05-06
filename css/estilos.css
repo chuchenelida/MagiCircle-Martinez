@@ -11,17 +11,32 @@
     box-sizing: border-box; 
     font-family: 'Noto Sans SC', sans-serif;     
 }
-
+body{
+    background: #9D50BB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+} 
 header{
     color: #F8CA00; background-color: #6a1b9a;
     }
 
     #container-fluid-principal {
-        background-image: url(../img/logo\ izquierda.png);
+        background-image: url(../img/logoIzquierda.png);
         background-size:cover;
         width: 100%;
         height: 680px;
     }
+
+    #fondogalaxia {
+        background-image: url(../img/fondogalaxia.png);
+        background-size: cover;
+        width: 100%;
+        height: 350px;
+        font-family: Poetsen;
+    }
+.Other {
+    font-family: Poetsen;
+}
     
     .PrincipalText{
     color: #F8CA00;
@@ -47,9 +62,7 @@ header{
 padding: 2rem;
 border: 5px solid black;
 
-background: #6441A5;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
@@ -72,8 +85,14 @@ background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, F
     margin-top: 3rem;
 }
 
+.AgentesE {
+    background-color:#ffff52;
+    margin: 3rem;
+    padding-bottom: 1rem;
+}
+/*Página Niños y Niñas*/
 
-/*Página Cuidadores Primarios*/
+
 .ActividadesCpG {
     display: grid;
     gap: 1em;
@@ -122,3 +141,11 @@ background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, F
     transition: all 2s;
     transform: scale(1.5,1.5);
 }    
+
+footer {
+    background: #6441A5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: #F8CA00;
+}
+
