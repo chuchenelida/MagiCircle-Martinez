@@ -15,8 +15,9 @@
 <body>
     <header> <!--Información de Bienvenida-->
         
-        <nav class="navbar navbar-expand-lg navbar-light bg-light "style="background-color: background: #CAC531; background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  
-        background: linear-gradient(to right, #F3F9A7, #CAC531);">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light "style="background: #4b6cb7;  
+        background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  
+        background: linear-gradient(to right, #182848, #4b6cb7)">
           <a class="navbar-brand" href="../index.html">Inicio</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -57,7 +58,7 @@
             <section class="IntroCp">
                 <article> <!--Bienvenida y presentación-->
                     <div><!--Imagen Introductoria, con los elementos que contiene la página-->
-                        <img src="../img/CP.jpg" width="460">
+                        <img src="../img/CP.jpg" class="img-fluid" width="460">
                     </div>
                     <div>
                         <h3>¡Hola, cuidador primario este es tu espacio!</h3>
@@ -121,19 +122,31 @@
             </section>
     </main>
     <footer><!--Contactos y redes sociales-->
-        <article><h4>Contacto</h4>
-            <div>
-                <a href="">Correo electronico</a>
-                <a href="">WhatsApp</a>
+        <div class="container">
+            <div class="row ">
+              <div class="col-6">
+                <h4>Contacto</h4>
+              </div>
+              <div class="col-6">
+                <h4>Redes sociales</h4>
+              </div>
             </div>
-        </article>
-        <div>  
-        <h4>Redes sociales</h4>
-       <ul>
-            <li><a href="">Facebook <i class="fab fa-facebook"></i></li>
-            <li><a href="">Instragram <i class="fab fa-instagram"></i></li> 
-            <li><a href="">YouTube <i class="fab fa-youtube"></i></a></li>
-        </ul>
+            <div class="row ">
+              <div class="col-6">
+                <div><a href="">Correo electronico</a></div>
+                <div><a href="">WhatsApp</a></div>
+              </div>
+              <div class="col-2">
+                <a href="">Facebook<i class="fab fa-facebook"></i>
+              </div>
+              <div class="col-2">
+                <a href="">Instragram<i class="fab fa-instagram"></i>
+              </div>
+              <div class="col-2">
+                <a href="">YouTube<i class="fab fa-youtube"></i>
+              </div>
+            </div>
+          </div>
         </div> 
     </footer>
     
