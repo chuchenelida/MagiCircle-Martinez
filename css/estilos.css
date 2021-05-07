@@ -97,6 +97,20 @@ h5 {
   font-family: Poetsen;
   align-items: center; }
 
+.containerSlider {
+  margin: 2rem;
+  padding: 2rem; }
+
+.containerNN_3 {
+  background-color: #6a1b9a;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 2rem; }
+
+.ScapeRoom__NN {
+  margin: 2rem;
+  padding: 2rem; }
+
 .ActividadesCpG {
   display: grid;
   gap: 1em; }
@@ -139,6 +153,14 @@ h5 {
   transition: all 2s;
   transform: scale(1.5, 1.5); }
 
+.container-fluid__CP {
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/415824/pexels-photo-415824.jpeg?cs=srgb&dl=pexels-pixabay-415824.jpg&fm=jpg);
+  background-size: cover;
+  color: cornsilk; }
+
 footer {
   background: #0f0c29;
   /* fallback for old browsers */
@@ -164,3 +186,29 @@ footer {
 
 .icon-bar a:hover {
   background-color: #000; }
+
+/*Página de Contacto*/
+.container__Contacto {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto; }
+
+.container__Contacto img {
+  vertical-align: middle; }
+
+.container__Contacto .content {
+  position: sticky;
+  bottom: 0;
+  background: black;
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px; }
+
+.Forms {
+  background-color: #f7cb2d;
+  padding: 5rem;
+  margin: 5rem;
+  border-radius: 2rem; }
