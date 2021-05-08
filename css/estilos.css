@@ -28,8 +28,9 @@ nav {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 .nav-link {
-  color: blue; }
+  color: white; }
 
+/*Página html*/
 header {
   color: #F8CA00;
   background-color: #6a1b9a; }
@@ -62,6 +63,7 @@ header {
   text-align: end; }
 
 .container-fluid__SectionNiñxs {
+  margin: 2rem;
   padding: 2rem;
   text-align: center;
   width: 100%;
