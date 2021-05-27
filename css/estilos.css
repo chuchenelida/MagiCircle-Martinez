@@ -25,7 +25,8 @@ nav {
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%; }
 
 .nav-link {
   color: white; }
@@ -44,7 +45,7 @@ header {
   color: #F8CA00;
   font-family: Poetsen;
   text-align: right;
-  transition: all 2s; }
+  transition: all 8s; }
 
 .display-1:hover {
   font-size: 25px;
@@ -66,7 +67,6 @@ header {
   margin: 2rem;
   padding: 2rem;
   text-align: center;
-  width: 100%;
   background-image: url(https://images.unsplash.com/photo-1571210862729-78a52d3779a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
   background-size: cover;
   color: cornsilk; }
