@@ -30,24 +30,27 @@ width: 100%;}
 header{
     color: #F8CA00; background-color: #6a1b9a;
     } 
-.jumbotron{
+.jumbotron__Inicio{
     background-image:url(../img/Jumbotron.svg);
-    height: 80vp;
     background-size: cover;
-   ;
+    padding: 15rem;
+    height: 100%;
+    width: 100%;
 }
 .display-1{
     color: #F8CA00;
     font-family: Poetsen;
     text-align:right;
-    transition: all 8s;
+    transition: all 6s;
   }
   .display-1:hover {
-    font-size: 25px;
-    transition: ease-in-out;
+    font-size: 30px;
+    transition:ease-out;
     }
 .lead{
     text-align: end;
+    color: #F8CA00;
+    font-size: 5vh;
 }
   
 .display-1__NN{
@@ -92,7 +95,7 @@ h5 {
     color: #F8CA00;
     font-family: Poetsen;
     text-align:center;
-    
+    padding: 8rem;
 }
 .display-1NN{
     color: #F8CA00;
@@ -162,15 +165,16 @@ h5 {
     transform: scale(1.5,1.5);
 }    
 .container-fluid__CP{
-    padding: 2rem;
-    text-align: center;
-    height: 150vh;
-    width: 80%;
-    padding: 15rem;
-    margin: 8rem;
+    height: 100vh;
+    width: 100%;
     background-image: url(https://images.pexels.com/photos/415824/pexels-photo-415824.jpeg?cs=srgb&dl=pexels-pixabay-415824.jpg&fm=jpg);
     background-size:cover;
     color: cornsilk;
+}
+.Container__SostenimientoCp__Texto{
+    margin: 2rem;
+    padding: 8rem;
+    width: 100%;
 }
 footer {
     background: #0f0c29;  /* fallback for old browsers */
