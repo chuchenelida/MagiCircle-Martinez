@@ -33,19 +33,15 @@ nav {
 
 /*Página html*/
 header {
-  color: #F8CA00;
-  background-color: #6a1b9a; }
+  color: #F8CA00; }
 
+/*Elemento de bienvenida del Círculo mágico*/
 .jumbotron__Inicio {
   background-image: url(../img/Jumbotron.svg);
   background-size: cover;
   padding: 15rem;
   height: 100%;
   width: 100%; }
-
-.container__Principal {
-  margin: 2rem;
-  padding: 2rem; }
 
 .display-1 {
   color: #F8CA00;
@@ -60,7 +56,13 @@ header {
 .lead {
   text-align: end;
   color: #F8CA00;
-  font-size: 5vh; }
+  font-size: 5vh;
+  padding-left: 20rem; }
+
+/*Contenedor video, misión y visión*/
+.container__Principal {
+  margin: 2rem;
+  padding: 2rem; }
 
 .display-1__NN {
   color: #F8CA00;
@@ -117,7 +119,9 @@ h5 {
 
 .ScapeRoom__NN {
   margin: 2rem;
-  padding: 2rem; }
+  padding: 2rem;
+  width: 100%;
+  height: 100%; }
 
 /*Página Cuidadores Primarios*/
 .CerebroAnidado {
@@ -157,6 +161,10 @@ h5 {
   margin: 2rem;
   padding: 8rem;
   width: 100%; }
+
+.IntroCp {
+  margin-top: 2rem;
+  padding: 2rem; }
 
 footer {
   background: #0f0c29;
